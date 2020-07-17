@@ -1,0 +1,122 @@
+/*------------------------------------------- Navigation bar -------------------------------------*/
+
+/*------------------------------------------- Main section -------------------------------------*/
+
+#our-project{
+    font-family: American Typewriter, serif;
+    text-shadow: var(--shadow) 2px 2px;
+    font-size: 80px;
+}
+
+#event-title{
+    font-family: Palatino, URW Palladio L, serif;
+    text-shadow: var(--shadow) 2px 2px;
+    background-color: dimgray;
+    color: floralwhite;
+    font-size: 50px;
+    text-align: left!important;
+}
+
+.project-report{
+  padding-bottom: 60px!important;
+  font-family: Palatino, URW Palladio L, serif;
+}
+
+:root {
+    --border-size: 0.125rem;
+    --duration: 250ms;
+    --ease: cubic-bezier(0.215, 0.61, 0.355, 1);
+    --font-family: monospace;
+    --color-primary: white;
+    --color-secondary:dimgray;
+    --color-tertiary: dodgerblue;
+    --shadow: rgba(0, 0, 0, 0.1);
+    --space: 1rem;
+  }
+
+
+.button-group{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 40px;
+}
+
+.button-group button{
+    height: 80%;
+    width: 15%;
+    flex-grow: 1;
+    cursor: pointer;
+    position: relative;
+    padding:
+    calc(var(--space) / 1.125)
+    var(--space)
+    var(--space);
+    border: none;
+    color: black;
+    background-color: var(--color-primary);
+    font-size: 1.5rem;
+    font-family: var(--font-family);
+    text-shadow: var(--shadow) 2px 2px;
+    transition: flex-grow var(--duration) var(--ease);
+}
+
+
+.button-group button + button {
+    margin-left: calc(var(--border-size) * -1);
+  }
+
+.button-group button:hover,.button-group button:focus {
+  flex-grow: 2;
+  color: white;
+  outline: none;
+  text-shadow: none;
+  background-color: var(--color-secondary);
+}
+.button-group button:focus {
+    outline: var(--border-size) dashed var(--color-primary);
+    outline-offset: calc(var(--border-size) * -3);
+  }
+  
+  .button-group:hover button:focus:not(:hover) {
+    flex-grow: 1;
+    color: var(--color-secondary);
+    background-color: var(--color-primary);
+    outline-color: var(--color-tertiary);
+  }
+  
+  .button-group button:active {
+    transform: translateY(var(--border-size));
+  }
+
+/*------------------------------------------- Display Section -------------------------------------*/
+
+/*------------------------------------------- Side-bar Section -------------------------------------*/
+#event-block{
+    border: 2px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    padding: none;
+}
+
+.event-heading{
+  width: 180px;
+  font-family: American Typewriter, serif;
+  background-color: dimgray;
+  color: antiquewhite;
+  justify-self: left!important;
+}
+
+#event{
+  font-family: American Typewriter, serif;
+    text-decoration: underline;
+    display: list-item;
+    list-style: disk;
+    list-style-position: inside;
+    text-align: left!important;
+}
+
+/*------------------------------------------- Footer -------------------------------------*/
