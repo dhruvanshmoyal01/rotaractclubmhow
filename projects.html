@@ -59,21 +59,21 @@
 			<div class="row">
 				<div class="col-lg-10 col-md-10 col-sm-12">
 					<div class="project-title pb-4">
-						<h1 class="text-uppercase title-h1">Our Projects</h1>
+						<h1 class="text-uppercase title-h1" id = "our-project">Our Projects</h1>
 					</div>
 					<div class="button-group">
 						<button type="button" id="btn1" class="active">All</button>
-						<button type="button" data-filter=".latest">Latest</button>
-						<button type="button" data-filter=".past">Past</button>
-						<button type="button" data-filter=".upcoming">Upcoming</button>
-						<button type="button" data-filter=".awarness">Awarness Posts</button>
-						<button type="button" data-filter=".meets">Meets</button>
+						<button type="button" id="btn2" data-filter=".latest">Latest</button>
+						<button type="button" id="btn3" data-filter=".past">Past</button>
+						<button type="button" id="btn4" data-filter=".upcoming">Upcoming</button>
+						<button type="button" id="btn5" data-filter=".awarness">Awareness</button>
+						<button type="button" id="btn6" data-filter=".meets">Meets</button>
 					</div>
 					<div class="row grid">
 						<div class="col-lg-12 element-item latest">
 							<div class="our-project">
 								<div class="project-title">
-									<h1 class="display-4 text-uppercase text-center">Event Title</h1>
+									<h1 class="display-4 text-uppercase text-center" id = "event-title">Event Title</h1>
 								</div>
 								<div class="project-sub">
 									<div class="row">
@@ -101,7 +101,7 @@
 						<div class="col-lg-12 element-item past">
 							<div class="our-project">
 								<div class="project-title">
-									<h1 class="display-4 text-uppercase text-center">Event Title</h1>
+									<h1 class="display-4 text-uppercase text-center" id = 'event-title'>Event Title</h1>
 								</div>
 								<div class="project-sub">
 									<div class="row">
@@ -129,7 +129,7 @@
 						<div class="col-lg-12 element-item upcoming">
 							<div class="our-project">
 								<div class="project-title">
-									<h1 class="display-4 text-uppercase text-center">Event Title</h1>
+									<h1 class="display-4 text-uppercase text-center" id = 'event-title'>Event Title</h1>
 								</div>
 								<div class="project-sub">
 									<div class="row">
@@ -157,7 +157,7 @@
 						<div class="col-lg-12 element-item awarness">
 							<div class="our-project">
 								<div class="project-title">
-									<h1 class="display-4 text-uppercase text-center">Event Title</h1>
+									<h1 class="display-4 text-uppercase text-center" id = 'event-title'>Event Title</h1>
 								</div>
 								<div class="project-sub">
 									<div class="row">
@@ -185,7 +185,7 @@
 						<div class="col-lg-12 element-item meets">
 							<div class="our-project">
 								<div class="project-title">
-									<h1 class="display-4 text-uppercase text-center">Event Title</h1>
+									<h1 class="display-4 text-uppercase text-center" id = 'event-title'>Event Title</h1>
 								</div>
 								<div class="project-sub">
 									<div class="row">
@@ -213,7 +213,7 @@
 						<div class="col-lg-12 element-item past">
 							<div class="our-project">
 								<div class="project-title">
-									<h1 class="display-4 text-uppercase text-center">Event Title</h1>
+									<h1 class="display-4 text-uppercase text-center" id = 'event-title'>Event Title</h1>
 								</div>
 								<div class="project-sub">
 									<div class="row">
@@ -241,15 +241,16 @@
 					</div>
 				</div>
 	<!------------------------------------------- Side-bar Section ------------------------------------->
-				<div class="col-lg-2 col-md-2 col-sm-12 ml-auto">
+				<div class="col-lg-2 col-md-2 col-sm-12 ml-auto" id = "event-block">
 					<div class="current-events">
-						<h4 class="text-center">Current Events</h4>
+						<h1 class="event-heading">Events</h1>
+						<h4 class="text-center" id = "event">Current Events</h4>
 						<div class="event-list text-center">
 							<a href="#">Kalrakriti</a>	
 						</div>
 					</div>
 					<div class="past-events">
-						<h4 class="text-center">Current Events</h4>
+						<h4 class="text-center" id = "event">Past Events</h4>
 						<div class="event-list text-center">
 							<a href="#">Mahadan</a>
 							<a href="#">Computer Training Session</a>
@@ -262,7 +263,7 @@
 						</div>
 					</div>
 					<div class="upcoming-events">
-						<h4 class="text-center">Current Events</h4>
+						<h4 class="text-center" id = "event">Upcoming Events</h4>
 						<div class="event-list text-center">
 							<a href="#">Plantation Drive 2020</a>
 						</div>
