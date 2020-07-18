@@ -93,6 +93,33 @@
     transform: translateY(var(--border-size));
   }
 
-/*------------------------------------------- Footer section -------------------------------------*/
+/* -------------------------------------------  footer section  ------------------------------------------- */
+.social a{
+  font-size: 4.5em;
+  padding: 3rem;
+}
 
+.fa-facebook-square{
+  color: #3b5998;
+}
+
+.fa-envelope{
+  color: #D44638; 
+}
+
+.fa-linkedin{
+  color: #0e76a8;
+}
+
+.fa-instagram{
+  color: #405DE6;
+}
+
+.fa-youtube{
+  color: #bb0000;
+}
+
+.fa-facebook-square:hover, .fa-instagram:hover , .fa-youtube:hover, .fa-envelope:hover, .fa-linkedin:hover{
+  color: #d5d5d5;
+}
 
