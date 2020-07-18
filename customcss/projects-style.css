@@ -154,3 +154,11 @@ header{
   color: #d5d5d5;
 }
 
+/*----------------------------------------------media queries------------------------------------------------*/
+@media(max-width: 576px){
+  .button-group button{
+    position: relative;
+    border-radius: 10px!important;
+    padding: 10px;
+  }  
+}

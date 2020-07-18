@@ -38,7 +38,22 @@ header{
 .card{
 	margin: 15px 10px!important;
 }
+.card img{
+	height: 200px;
+	width: 200px;
+	margin: auto;
+}
+
 /*------------------------------------------- Rotaractor section -------------------------------------*/
+.rotaractor{
+	margin: 40px 0; 
+}
+
+.rotaractor img{
+	height: 400px;
+	width: 400px;
+	margin: auto;	
+}
 
 /*------------------------------------------- End Main section -------------------------------------*/
 
@@ -70,4 +85,15 @@ header{
 
 .fa-facebook-square:hover, .fa-instagram:hover , .fa-youtube:hover, .fa-envelope:hover, .fa-linkedin:hover{
 	color: #d5d5d5;
+}
+
+
+/*----------------------------------------------media queries------------------------------------------------*/
+@media(max-width: 576px){
+	.logo img{
+		margin-left: 30%;
+	}
+	.rotaractor div{
+		margin: 10px;
+	}
 }
