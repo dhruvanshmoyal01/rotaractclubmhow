@@ -10,15 +10,20 @@
 #event-title{
     font-family: Palatino, URW Palladio L, serif;
     text-shadow: var(--shadow) 2px 2px;
-    background-color: dimgray;
-    color: floralwhite;
     font-size: 50px;
-    text-align: left!important;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .project-report{
   padding-bottom: 60px!important;
   font-family: Palatino, URW Palladio L, serif;
+}
+
+.project-sub{
+  padding-top: 10px;
+  padding-bottom: 5px!important;
 }
 
 :root {
@@ -27,7 +32,7 @@
     --ease: cubic-bezier(0.215, 0.61, 0.355, 1);
     --font-family: monospace;
     --color-primary: white;
-    --color-secondary:dimgray;
+    --color-secondary: #3b5998;
     --color-tertiary: dodgerblue;
     --shadow: rgba(0, 0, 0, 0.1);
     --space: 1rem;
@@ -59,14 +64,14 @@
     font-family: var(--font-family);
     text-shadow: var(--shadow) 2px 2px;
     transition: flex-grow var(--duration) var(--ease);
-    border-radius: 90px!important;
+    border-radius: 50px!important;
+    margin-left: 5px!important;
 }
 
 
 .button-group button + button {
     margin-left: calc(var(--border-size) * -1);
-    border-radius: 90px!important;
-  }
+}
 
 .button-group button:hover,.button-group button:focus {
   flex-grow: 2;
@@ -74,28 +79,22 @@
   outline: none;
   text-shadow: none;
   background-color: var(--color-secondary);
-  border-radius: 90px!important;
 }
-.button-group button:focus {
-    outline: var(--border-size) dashed var(--color-primary);
-    outline-offset: calc(var(--border-size) * -3);
-    border-radius: 90px!important;
-  }
   
-  .button-group:hover button:focus:not(:hover) {
+.button-group:hover button:focus:not(:hover) {
     flex-grow: 1;
     color: var(--color-secondary);
     background-color: var(--color-primary);
     outline-color: var(--color-tertiary);
-  }
+}
   
-  .button-group button:active {
+.button-group button:active {
     transform: translateY(var(--border-size));
-  }
+}
 
 /* -------------------------------------------  footer section  ------------------------------------------- */
 .social a{
-  font-size: 4.5em;
+  font-size: 4em;
   padding: 3rem;
 }
 
