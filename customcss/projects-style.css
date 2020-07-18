@@ -1,4 +1,36 @@
 /*------------------------------------------- Navigation bar -------------------------------------*/
+header{
+  position: relative;
+  z-index: 10;
+  width: 100%;
+}
+
+.navbar{
+  padding: 20px 0; 
+}
+
+.navbar-brand{
+  text-transform: uppercase;
+  font-size: 2em;
+  color: #262626;
+}
+
+.nav-item{
+  text-transform: uppercase; 
+}
+
+.navbar-light .navbar-nav .nav-item .nav-link:hover,
+.navbar-light .navbar-nav .nav-item.active .nav-link{
+  background: #3b5998;
+  color: #fff;
+  border-radius: 10px;
+}
+
+.navbar-light .navbar-nav .nav-item .nav-link{
+  color: #262626;
+  padding: 5px 15px;
+  margin: 0 5px;
+}
 
 /*------------------------------------------- Main section -------------------------------------*/
 #our-project{
