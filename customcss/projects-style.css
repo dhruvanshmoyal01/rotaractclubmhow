@@ -160,5 +160,10 @@ header{
     position: relative;
     border-radius: 10px!important;
     padding: 10px;
-  }  
+  }
+  
+  #logoImg{
+    width: 75%;
+    height: 100%;
+  }    
 }

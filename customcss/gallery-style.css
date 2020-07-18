@@ -1,3 +1,4 @@
+/* -------------------------------------------  Navigation section  ------------------------------------------- */
 header{
 	position: relative;
 	z-index: 10;
@@ -59,4 +60,11 @@ header{
 
 .fa-facebook-square:hover, .fa-instagram:hover , .fa-youtube:hover, .fa-envelope:hover, .fa-linkedin:hover{
   color: #d5d5d5;
+}
+
+@media(max-width: 576px){
+  #logoImg{
+  	width: 75%;
+  	height: 100%;
+  }  
 }
