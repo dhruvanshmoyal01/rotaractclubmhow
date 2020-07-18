@@ -70,3 +70,11 @@ header{
 .fa-facebook-square:hover, .fa-instagram:hover , .fa-youtube:hover, .fa-envelope:hover, .fa-linkedin:hover{
 	color: #d5d5d5;
 }
+
+/*----------------------------------------------media queries------------------------------------------------*/
+@media(max-width: 576px){
+  #logoImg{
+  	width: 75%;
+  	height: 100%;
+  }  
+}
