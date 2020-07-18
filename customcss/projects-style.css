@@ -1,10 +1,6 @@
 /*------------------------------------------- Navigation bar -------------------------------------*/
 
 /*------------------------------------------- Main section -------------------------------------*/
-/*------------------------------------------- Display Section -------------------------------------*/
-/*------------------------------------------- Navigation bar -------------------------------------*/
-
-/*------------------------------------------- Main section -------------------------------------*/
 #our-project{
     font-family: American Typewriter, serif;
     text-shadow: var(--shadow) 2px 2px;
@@ -63,11 +59,13 @@
     font-family: var(--font-family);
     text-shadow: var(--shadow) 2px 2px;
     transition: flex-grow var(--duration) var(--ease);
+    border-radius: 90px!important;
 }
 
 
 .button-group button + button {
     margin-left: calc(var(--border-size) * -1);
+    border-radius: 90px!important;
   }
 
 .button-group button:hover,.button-group button:focus {
@@ -76,10 +74,12 @@
   outline: none;
   text-shadow: none;
   background-color: var(--color-secondary);
+  border-radius: 90px!important;
 }
 .button-group button:focus {
     outline: var(--border-size) dashed var(--color-primary);
     outline-offset: calc(var(--border-size) * -3);
+    border-radius: 90px!important;
   }
   
   .button-group:hover button:focus:not(:hover) {
@@ -93,6 +93,6 @@
     transform: translateY(var(--border-size));
   }
 
-/*------------------------------------------- Side-bar Section -------------------------------------*/
+/*------------------------------------------- Footer section -------------------------------------*/
 
-/*------------------------------------------- Footer -------------------------------------*/
+
