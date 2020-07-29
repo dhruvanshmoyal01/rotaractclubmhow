@@ -42,6 +42,14 @@ header{
 	width: 200px;
 	margin: auto;
 }
+.popup{
+ transition: transform .2s; 
+}
+
+.popup:hover {
+  transform: scale(1.1); 
+		box-shadow: 10px 5px 5px -3px rgba(92,92,92,0.4), 0px 7px 10px rgba(92,92,92,0.6), -10px 5px 5px -3px rgba(92,92,92,0.4);   
+}
 
 /*------------------------------------------- Rotaractor section -------------------------------------*/
 .rotaractor{
