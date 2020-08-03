@@ -70,7 +70,7 @@ header{
     --space: 1rem;
   }
 
-
+/*
 .button-group{
     display: flex;
     flex-wrap: wrap;
@@ -122,6 +122,11 @@ header{
   
 .button-group button:active {
     transform: translateY(var(--border-size));
+}
+*/
+.project-display button{
+  width: 125px!important;
+  border: none!important; 
 }
 
 /* -------------------------------------------  footer section  ------------------------------------------- */
