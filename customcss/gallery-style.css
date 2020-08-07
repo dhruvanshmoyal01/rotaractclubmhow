@@ -57,7 +57,7 @@ header{
 	height: 100%;
 	margin-top: 2%;
 	cursor: pointer;
-	filter: grayscale(1) brightness(0.5);
+	filter: grayscale(0.6) brightness(0.5);
 	transition: 0.3s linear;
 }
 
@@ -68,7 +68,7 @@ header{
 /* -------------------------------------------  footer section  ------------------------------------------- */
 .social a{
   font-size: 4em;
-  padding: 3rem;
+  padding: 2rem;
 }
 
 .fa-facebook-square{
@@ -101,5 +101,26 @@ header{
   #logoImg{
   	width: 75%;
   	height: 100%;
-  }  
+  }
+  .social a{
+		font-size: 2em;
+		padding: 1rem;
+	}
+  
+}
+
+@media only screen and (max-width: 800px){
+	.row .column{
+		flex: 50%;
+	}
+}
+
+@media only screen and (max-width: 600px){
+	.row .column{
+		flex: 100%;
+	}
+
+	.row .column img{
+	filter: grayscale(0) brightness(1);
+	}
 }

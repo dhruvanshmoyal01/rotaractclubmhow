@@ -16,4 +16,7 @@ $(document).ready(function(){
 
 	$('project-area .button-group #btn1').trigger("click");
 
+	$('#myModal').on('shown.bs.modal', function () {
+	  $('#myInput').trigger('focus')
+	})
 });

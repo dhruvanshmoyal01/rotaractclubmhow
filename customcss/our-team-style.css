@@ -104,7 +104,7 @@ backface-visibility: hidden;
 /* -------------------------------------------  footer section  ------------------------------------------- */
 .social a{
 	font-size: 4em;
-	padding: 3rem;
+	padding: 2rem;
 }
 
 .fa-facebook-square{
@@ -143,5 +143,9 @@ backface-visibility: hidden;
 	#logoImg{
 	  	width: 75%;
 	  	height: 100%;
+	}
+	.social a{
+		font-size: 2em;
+		padding: 1rem;
 	}  
 }

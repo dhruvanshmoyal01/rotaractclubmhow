@@ -34,7 +34,7 @@ header{
 
 /* -------------------------------------------  Main Section  ------------------------------------------- */
 .popup{
- transition: transform .2s; 
+	transition: transform .2s; 
 }
 
 .popup:hover {
@@ -45,10 +45,19 @@ header{
 #para{
 	text-align: left;
 }
+
+.cause img{
+	height: 250px;
+	width: 100%;
+}
+
+.causes{
+	margin-top: -150px;
+}
 /* -------------------------------------------  footer section  ------------------------------------------- */
 .social a{
 	font-size: 4em;
-	padding: 3rem;
+	padding: 2rem;
 }
 
 .fa-facebook-square{
@@ -81,4 +90,9 @@ header{
   	width: 75%;
   	height: 100%;
   }  
+  .social a{
+		font-size: 2em;
+		padding: 1rem;
+	}
+
 }
