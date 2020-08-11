@@ -89,6 +89,10 @@ backface-visibility: hidden;
 
 
 /*------------------------------------------- Rotaractor section -------------------------------------*/
+.all_members{
+	margin-top: 20px;
+}
+
 .rotaractor{
 	margin: 40px 0; 
 }
