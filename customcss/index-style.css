@@ -95,4 +95,7 @@ header{
 		padding: 1rem;
 	}
 
+	.popup p{
+		font-size: 8px;
+	}
 }
